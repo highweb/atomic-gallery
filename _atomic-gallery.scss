@@ -1,16 +1,1 @@
-@import "blueimp-gallery/css/blueimp-gallery.min";
-
-// Fix scrolling after escaping from Gallery. Library bug?
-body {
-  overflow: visible !important;
-}
-
-.blueimp-gallery > .slides > .slide > .video-content > a {
-  background: none;
-
-  &::before {
-    content: "►";
-    font-size: 300%;
-    color: white;
-  }
-}
+@import "~blueimp-gallery/css/blueimp-gallery.min.css";
